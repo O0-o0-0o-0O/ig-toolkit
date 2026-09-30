@@ -1,0 +1,18 @@
+[project]
+name = "ig-toolkit"
+version = "0.1.0"
+description = "Instagramの非公式ログイン・投稿メディア保存を試すための個人用ツール群"
+authors = [
+    { name = "O0-o0-0o-0O", email = "private.nxux@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "httpx[http2]>=0.28.1",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.9",
+]
